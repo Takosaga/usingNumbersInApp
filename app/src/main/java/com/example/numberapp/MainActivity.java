@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText numberEditText = findViewById(R.id.number);
 
-        int numOne = Integer.parseInt(numberEditText.getText().toString());
+        int numOne = Integer.parseInt(numberEditText.getText().toString(),2);
 
         textView.setText(Integer.toString(numOne));
 
